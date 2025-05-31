@@ -1,0 +1,18 @@
+.login-container {
+  max-width: 360px;
+  margin: 40px auto;
+  padding: 30px;
+  border-radius: 16px;
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  font-family: Arial, sans-serif; 
+}
+
+/* Titles Custom Style */
+.login-container h1 {
+  font-family: 'EvilDead', sans-serif;
+}
+
+.login-container h2 {
+  font-family: 'NightTraveler', sans-serif;
+}
