@@ -1,0 +1,46 @@
+[debug] [2025-06-01T04:45:30.055Z] ----------------------------------------------------------------------
+[debug] [2025-06-01T04:45:30.061Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\ia70\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init hosting
+[debug] [2025-06-01T04:45:30.062Z] CLI Version:   14.5.1
+[debug] [2025-06-01T04:45:30.062Z] Platform:      win32
+[debug] [2025-06-01T04:45:30.062Z] Node Version:  v22.16.0
+[debug] [2025-06-01T04:45:30.063Z] Time:          Sat May 31 2025 22:45:30 GMT-0600 (hora estándar central)
+[debug] [2025-06-01T04:45:30.063Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-06-01T04:45:30.418Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-06-01T04:45:30.419Z] > authorizing via signed-in user (libersoftmx@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\angular\appAngular
+
+Before we get started, keep in mind:
+
+  * You are currently outside your home directory
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2025-06-01T04:45:36.890Z] Using project from CLI flag: marketplace-a9ab1
+[debug] [2025-06-01T04:45:36.892Z] Checked if tokens are valid: true, expires at: 1748756234449
+[debug] [2025-06-01T04:45:36.892Z] Checked if tokens are valid: true, expires at: 1748756234449
+[debug] [2025-06-01T04:45:36.894Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/marketplace-a9ab1 [none]
+[debug] [2025-06-01T04:45:37.348Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/marketplace-a9ab1 403
+[debug] [2025-06-01T04:45:37.348Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/marketplace-a9ab1 {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2025-06-01T04:45:37.349Z] Request to https://firebase.googleapis.com/v1beta1/projects/marketplace-a9ab1 had HTTP Error: 403, The caller does not have permission
+[debug] [2025-06-01T04:45:37.561Z] FirebaseError: Request to https://firebase.googleapis.com/v1beta1/projects/marketplace-a9ab1 had HTTP Error: 403, The caller does not have permission
+    at responseToError (C:\Users\ia70\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:52:12)
+    at RetryOperation._fn (C:\Users\ia70\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:312:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[error] 
+[error] Error: Failed to get Firebase project marketplace-a9ab1. Please make sure the project exists and your account has permission to access it.
